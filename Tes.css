@@ -1,0 +1,397 @@
+* {
+  font-family: sans-serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #19191b;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  width: 1200px;
+  margin: auto;
+}
+
+nav {
+  z-index: 100;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  border-bottom: 1px solid #b1b1b1;
+  line-height: 60px;
+  width: 100%;
+  transition: background-color 0.5s;
+  background-color: #19191b;
+}
+
+nav.putih {
+  background-color: #fff;
+}
+
+nav .logo {
+  float: left;
+  position: relative;
+  line-height: 55px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+nav .logo img {
+  vertical-align: middle;
+  width: 100%;
+  margin-top: 27px;
+}
+
+nav .logo h1 {
+  margin-left: 10px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+nav .logo h1:hover {
+  color: rgb(84, 84, 212);
+}
+
+nav .menu {
+  float: left;
+  height: 60px;
+  margin-left: 225px;
+}
+
+nav .menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav .menu ul li {
+  list-style-type: none;
+  float: left;
+  line-height: 60px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+#Contact {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 15px 30px 15px 30px;
+  border: 2px solid rgb(143, 143, 143);
+  margin-left: 225px;
+}
+
+#Contact:hover {
+  background-color: rgb(84, 84, 212);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: rgb(84, 84, 212);
+}
+
+.tombol-menu {
+  position: absolute;
+  top: 1.7rem;
+  right: 1.7rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.home {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 350px;
+  margin-right: 350px;
+  position: absolute;
+  display: flex;
+}
+
+.home img {
+  width: 40%;
+  margin-left: -50px;
+}
+
+.home img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.home h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 90px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  color: #ffffff;
+  width: 100%;
+  line-height: 90px;
+}
+
+.home p {
+  color: rgb(201, 201, 201);
+  font-size: 20px;
+  margin-right: 200px;
+  line-height: 40px;
+}
+
+.tbl-pink {
+  background: rgb(84, 84, 212);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tbl-pink:hover {
+  background: #dadada;
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+}
+
+.before-video {
+  margin-top: 850px;
+  margin-bottom: 50px;
+  margin-left: 350px;
+  margin-right: 350px;
+  position: absolute;
+  display: flex;
+}
+
+.before-video h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-bottom: 20px;
+  margin-right: 150px;
+  color: #ffffff;
+  width: 50%;
+  line-height: 70px;
+}
+
+.before-video p {
+  color: rgb(201, 201, 201);
+  font-size: 20px;
+  line-height: 40px;
+  margin-left: -50px;
+}
+
+.Nvidia {
+  position: absolute;
+  margin-top: 1050px;
+  margin-left: 350px;
+  margin-right: 350px;
+  border: 1px solid;
+  width: 63%;
+  padding-top: 34%;
+}
+
+.Nvidia iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.service {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 1800px;
+}
+
+.service h1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-left: 590px;
+  margin-right: 550px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.Icon-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 360px;
+}
+
+.gambar-icon {
+  width: 20%;
+  margin: 90px;
+}
+
+.gambar-icon img {
+  width: 20%;
+}
+
+.gambar-icon img:hover {
+  transform: scale(1.5);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.gambar-icon h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -125px;
+  width: 100%;
+}
+
+.gambar-icon p {
+  font-family: sans-serif;
+  font-size: 17px;
+  text-align: center;
+  margin-left: -110px;
+  margin-right: 150px;
+  color: rgb(201, 201, 201);
+  margin-bottom: -50px;
+}
+
+.portofolio {
+  margin-top: 2750px;
+  margin-bottom: 50px;
+  margin-left: 330px;
+  margin-right: 350px;
+  position: absolute;
+  width: 50%;
+}
+
+.portofolio #carouselExampleIndicators {
+  margin-left: 150px;
+  width: 100%;
+}
+
+.portofolio h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  line-height: 70px;
+}
+
+.wrapper {
+  margin-top: 3800px;
+  margin-bottom: 50px;
+  background-color: rgb(26, 27, 34);
+  position: absolute;
+  display: flex;
+}
+
+.wrapper .text1 {
+  display: flex;
+  flex-direction: row;
+  padding: 150px 0 150px 0;
+}
+
+.wrapper h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 55px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-left: 330px;
+  color: #ffffff;
+  width: 40%;
+  line-height: 70px;
+}
+
+.wrapper p {
+  margin-top: 65px;
+  margin-left: 270px;
+  margin-right: 20px;
+  color: rgb(201, 201, 201);
+  font-size: 20px;
+}
+
+.wrapper p a {
+  padding: 15px 30px 15px 30px;
+}
+
+.footer {
+  margin-top: 4200px;
+  margin-bottom: 150px;
+  margin-left: 350px;
+  margin-right: 350px;
+  position: absolute;
+  display: flex;
+}
+
+.footer .text2 {
+  display: flex;
+  flex-direction: row;
+  padding: 130px 0 130px 0;
+}
+
+.footer .text2 h1 {
+  margin-left: 10px;
+  margin-right: 200px;
+  margin-top: 16px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer .text2 h1:hover {
+  color: rgb(84, 84, 212);
+}
+
+.footer .text2 a {
+  color: #fff;
+  margin-top: 17px;
+  margin-left: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer .text2 a:hover {
+  color: rgb(84, 84, 212);
+}
+
+.footer .text2 a img {
+  margin-top: -8px;
+}
+
+#Reserved {
+  margin-left: 150px;
+  text-decoration: none;
+}
+
+#Reserved:hover {
+  color: #fff;
+  cursor: default;
+}
